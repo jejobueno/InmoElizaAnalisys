@@ -1,6 +1,21 @@
 # InmoElizaAnalisys
 Preliminary analysis to gather some information for Machine Learning ALgorithm for the prediction of the house prices in Belgium.
 
+## DATA
+
+We are working with a dataset created from scrapping the website inmoweb.be by looking for queries to get the prices of appartements and houses around Belgium. This dataset was cleaned applying the following criterias:
+
+1. Drop all the entirely empty rows
+2. Delete the blank spaces at the beginning and end of each string
+3. Fixing errors:
+    Fixing variable hasFullyEquippedKitchen setting value '1' if the appartement has 'HYPER_EQUIPPED' or 'USA_HYPER_EQUIPPED' and '0' in the opposite case
+ 4. Dropping rows with price as NaN values
+ 5. Dropping duplicated values
+ 6. Deleting constant variable 'typeSale'
+ 7. Filling up empty values with np.NaN
+
+![image](https://user-images.githubusercontent.com/34608190/125642974-9c452792-5bbf-4c76-82f3-b4d1196d448c.png)
+
 ## VISUALIZATION
 
 We first visualiza the relationship between the vairables and the target (price) in a heatmap:
@@ -32,3 +47,12 @@ Then we explore the behavior of the house prices in relation to the area. The da
 
 
 ## Some questions to answerd:
+
+We also looked at the average price per square meter in different regions of belgium (Brussels, Wallonia, Flanders) and in the whole Belgium.
+
+### Brussels
+
+![image](https://user-images.githubusercontent.com/34608190/125643999-3f9be88a-d43a-4bc1-9875-51fae5dd876f.png)![image](https://user-images.githubusercontent.com/34608190/125644086-8e6f117c-af22-4510-b756-0657fd70e9f6.png)
+
+
+
