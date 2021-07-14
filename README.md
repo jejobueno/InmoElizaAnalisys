@@ -7,7 +7,8 @@ We first visualiza the relationship between the vairables and the target (price)
 
 The three variables with the highest correlation are:
 
-
+| Tables          Are    |
+|-----------------------:|
 |area            | 0.58  |
 |BedroomsCount   | 0.40  |
 |hasSwimmingPool | 0.35  |
