@@ -29,3 +29,6 @@ We first visualiza the relationship between the vairables and the target (price)
 Then we explore the behavior of the house prices in relation to the area. The data was standarize the data taking the logarithm of the price and the square root of the area 
 
 ![image](https://user-images.githubusercontent.com/34608190/125641869-6ae6e182-c8d2-4f9e-879f-40f982aa2f33.png)
+
+
+## Some questions to answerd:
