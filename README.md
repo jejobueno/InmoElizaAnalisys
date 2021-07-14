@@ -8,9 +8,6 @@ We first visualiza the relationship between the vairables and the target (price)
 ![image](https://user-images.githubusercontent.com/34608190/125638935-403bc716-3d60-403c-a5ac-d9978d8cd006.png)
 
 
-![image](https://user-images.githubusercontent.com/34608190/125637458-5f5710e2-fd83-4f99-940d-abb642339011.png)
-
-
 1. The three variables with the highest correlation are:
 
   | Variable         | Correlation |
