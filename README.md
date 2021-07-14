@@ -14,7 +14,7 @@ The three variables with the highest correlation are:
 |hasSwimmingPool | 0.35  |
 
 
-| Tables   |      Are      |  Cool |
+| Tables         Are        Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
